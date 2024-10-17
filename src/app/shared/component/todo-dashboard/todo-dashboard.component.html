@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-lg-6">
+        <app-todo-form (todoEmmiter)="getTodoData($event)"></app-todo-form>
+    </div>
+    <div class="col-lg-6">
+        <app-todo-list [todoData]="todoArr"></app-todo-list>
+    </div>
+</div>
